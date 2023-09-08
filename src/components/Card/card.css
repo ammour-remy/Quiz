@@ -1,0 +1,44 @@
+@keyframes rotateIn {
+    0% {
+        transform: perspective(400px) rotateY(1turn);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(0);
+    }
+}
+
+@keyframes rotateOut {
+    0% {
+        transform: perspective(400px) rotateY(0);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(1turn);
+    }
+}
+.descriptionForm { 
+    flex: 1;
+}
+
+.colorFalse {
+    background: rgb(134, 0, 0);
+    background: linear-gradient(90deg, rgb(173, 2, 2) 55%, rgb(231, 4, 4) 100%) !important;
+    /* opacity: 1 !important; */
+}
+.rotate-in {
+    animation: rotateIn 0.5s forwards;
+}
+
+.rotate-out {
+    animation: rotateOut 0.5s forwards;
+}
+
+.backgroundTitle {
+    background-color: white;
+}
+.image {
+width: 70%;
+height: auto; /* Pour que la hauteur s'ajuste en fonction de la largeur */
+object-fit: contain; /* Pour que l'image s'adapte sans se déformer */
+}

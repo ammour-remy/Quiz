@@ -1,0 +1,377 @@
+[
+    {
+        "name": "BASE LOAD",
+        "imageTitle": "BASELOAD.png",
+        "correctTitle": "BASE LOAD",
+        "questions": [
+            {
+                "question": "Quel est l'avantage principal du baseload en termes de stabilité du réseau électrique ?",
+                "definition": "Elle représente la puissance constante sur toute une période. On parle donc de prix Baseload lorsque la consommation d'électricité reste stable sur toute la période définie. ",
+                "choices": [
+                    {
+                        "name": "Il permet d'écoconomiser de l'énergie grâce à une meilleure gestion des pics de demande",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Il permet d'ajuster rapidement la production en fonction de la demande",
+                        "value": "wrong2"
+                    },
+                    {
+                        "name": "Il fournit une source d'énergie constante et prévisible",
+                        "value": "correct"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ENEDIS",
+        "imageTitle": "ENEDIS.png",
+        "correctTitle": "ENEDIS",
+        "questions": [
+            {
+                "question": "Quel est le rôle principal d'Enedis dans le secteur de l'énergie ?",
+                "definition": "Anciennement ErDF, il est une société anonyme à conseil de surveillance et directoire, filiale à 100 % d'EDF chargée de la gestion et de l'aménagement de 95 % du réseau de distribution d'électricité en France.",
+                "choices": [
+                    {
+                        "name": "Distribution de l'électricité aux foyers et entreprises",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Production d'électricité à partir d'énergies renouvelables",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Transport de l'électricité sur le réseau haute tension",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ENGIE",
+        "imageTitle": "ENGIE.png",
+        "correctTitle": "ENGIE",
+        "questions": [
+            {
+                "question": "Quelle est l'ancienne appellation d'Engie ?",
+                "definition": "Anciennement GDF puis GDF Suez, c'est le premier fournisseur de gaz naturel et d'électricité verte, ainsi que le troisième plus grand groupe mondial dans le secteur de l'énergie.",
+                "choices": [
+                    {
+                        "name": "Électricité de France",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Gaz de France",
+                        "value": "correct"
+                    },
+                    {
+                        "name": " Compagnie générale des énergies",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CONSUEL",
+        "imageTitle": "CONSUEL.png",
+        "correctTitle": "Consuel",
+        "questions": [
+            {
+                "question": "Qu'est-ce qu'un certificat CONSUEL ?",
+                "definition": "Nom généralement donné aux certificats de conformité délivrés par l’association du même nom, qui se charge de vérifier que les installations électriques contrôlées respectent bien toutes les normes de sécurité en vigueur.",
+                "choices": [
+                    {
+                        "name": "Une attestation de paiement des factures d'électricité",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Un document attestant de la conformité d'une installation électrique",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Un certificat d'origine de l'électricité produite à partir de sources renouvelables",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CTA",
+        "imageTitle": "CTA.png",
+        "correctTitle": "Contribution Tarifaire d'Acheminement",
+        "questions": [
+            {
+                "question": "Qu'est-ce que la Contribution Tarifaire d'Acheminement (CTA) ?",
+                "definition": "Cette taxe correspond à un prélèvement indexé sur les prestations de transport et de distribution d'électricité et de gaz naturel, constituant une part fixe de l'abonnement d'électricité ou de gaz naturel. Cela permet le financement des droits spécifiques relatifs à l'assurance-vieillesse des retraités relevant du régime de ces industries.",
+                "choices": [
+                    {
+                        "name": "Un tarif appliqué pour l'utilisation des réseaux de distribution d'électricité",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Une taxe sur la consommation d'énergie fossile",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Une redevance pour l'exploitation des centrales nucléaires",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EnR",
+        "imageTitle": "EnR.png",
+        "correctTitle": "Énergies Renouvelables",
+        "questions": [
+            {
+                "question": "Qu'est-ce que l'énergie renouvelable ?",
+                "definition": "Ce sont des sources d'énergie dont le renouvellement naturel est assez rapide pour qu'elles puissent être considérées comme inépuisables à l'échelle du temps humain. Elles proviennent de phénomènes naturels cycliques ou constants induits par les astres : le Soleil essentiellement pour la chaleur et la lumière qu'il génère, mais aussi l'attraction de la Lune (marées) et la chaleur générée par la Terre (géothermie). ",
+                "choices": [
+                    {
+                        "name": "Une énergie produite à partir de ressources fossiles",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Une énergie produite à partir de ressources naturelles épuisables",
+                        "value": "wrong2"
+                    },
+                    {
+                        "name": "Une énergie produite à partir de ressources naturelles non épuisable",
+                        "value": "correct"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GNL",
+        "imageTitle": "GNL.png",
+        "correctTitle": " Gaz Naturel Liquéfié",
+        "questions": [
+            {
+                "question": "Comment le Gaz Naturel Liquéfié (GNL) est-il obtenu ?",
+                "definition": "C'est un gaz porté à l'état liquide grâce à un procédé de refroidissement qui l'amène à -163°C. Ce gaz liquéfié est transporté par des méthaniers jusqu'aux terminaux de regazéification où il est réchauffé jusqu'à sa forme gazeuse pour être ensuite distribué dans les réseaux de distribution.",
+                "choices": [
+                    {
+                        "name": "Par compression du gaz naturel à très haute pression",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Par traitement chimique du gaz naturel",
+                        "value": "wrong2"
+                    },
+                    {
+                        "name": "Par refroidissement du gaz naturel jusqu'à l'état liquide",
+                        "value": "correct"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "kWh",
+        "imageTitle": "kWh.png",
+        "correctTitle": "Kilowatt-Heure",
+        "questions": [
+            {
+                "question": "Quel est l'équivalent en joules d'un kilowatt-heure (kWh) ?",
+                "definition": "C'est l'unité internationale de la puissance. Un kilowatt-heure vaut 3,6 mégajoules. Si de l'énergie est produite ou consommée à puissance constante sur une période donnée, l'énergie totale en kilowatts-heures est égale à la puissance en kilowatts multipliée par le temps en heures. Le kwH est utilisé pour l'énergie électrique, mais aussi pour facturer le gaz combustible et faire des bilans énergétiques.",
+                "choices": [
+                    {
+                        "name": "360 000 joules",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "3,6 joules",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "36 000 joules",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MW",
+        "imageTitle": "MW.png",
+        "correctTitle": "Mégawatt",
+        "questions": [
+            {
+                "question": "Quelle est l'équivalence entre un mégawatt (MW) et un kilowatt (kW) ?",
+                "definition": "Le mégawatt est une unité de mesure de puissance (1 mégawatt = 1000 KW)",
+                "choices": [
+                    {
+                        "name": "1 MW = 1,000 kW",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "1 MW = 100 kW",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "1 MW = 10 kW",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PAC",
+        "imageTitle": "PAC.png",
+        "correctTitle": "Pompe à Chaleur",
+        "questions": [
+            {
+                "question": "Quelle est l'énergie principalement utilisée par une Pompe à Chaleur (PAC) pour fonctionner ?",
+                "definition": "C'est une solution de chauffage écologique et économique permettant de remplacer les appareils qui nécessitent des énergies fossiles. Fonctionnant avec des énergies renouvelables, ce changement a un impact positif pour l'environnement, et représente des économies conséquentes sur les factures d'énergie. ",
+                "choices": [
+                    {
+                        "name": "Énergie solaire",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Énergie géothermique",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Énergie éolienne",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PCE",
+        "imageTitle": "PCE.png",
+        "correctTitle": "Point de Comptage et Estimation",
+        "questions": [
+            {
+                "question": "Quel est le rôle d'un PCE dans le domaine de l'énergie ?",
+                "definition": "C'est le point physique de livraison du gaz, situé à l'extrémité aval du réseau de distribution, à partir du quel votre consommation en gaz est mesurée. Le PCE est unique pour chaque lieu de consommation. Il est identifié par un numéro attribué par le gestionnaire de réseau de distribution. Ce numéro est composé de 14 chiffres ou les lettres GI + x chiffres.",
+                "choices": [
+                    {
+                        "name": "Estimer la consommation énergétique d'un site",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Mesurer la tension électrique d'un réseau",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Contrôler la qualité de l'électricité produite",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PDL PDS",
+        "imageTitle": "PDL_PDS.png",
+        "correctTitle": "Point De Livrairson ou Point De Servie",
+        "questions": [
+            {
+                "question": "Comment est généralement représenté un PDL/PDS dans les documents officiels ?",
+                "definition": "C'est un numéro à 14 chiffres, identifiant le compteur d'électricité. Ce numéro est unique et correspond à une seule installation électrique, c'est l'équivalent de l'adresse de votre logement pour la distribution d'électricité.",
+                "choices": [
+                    {
+                        "name": "Un code-barres scannable",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Un numéro d'identification unique",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Un symbole graphique spécifique",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PRM PRC",
+        "imageTitle": "PRM_PRC.png",
+        "correctTitle": "Point de Relève et Mesure ou Point De Consommation",
+        "questions": [
+            {
+                "question": "Qu'est-ce qu'un PRM/PRC dans le domaine de l'énergie ?",
+                "definition": "Point physique où sont placés les compteurs ou, le cas échéant, les transformateurs de mesures destinés au comptage de l'énergie. Ils sont aussi appelés PDL ou PCE.",
+                "choices": [
+                    {
+                        "name": "Un dispositif de contrôle de la distribution d'énergie électrique",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Un document réglementaire pour les entreprises du secteur énergétique",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Un système de prévision de la demande d'énergie",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HYDROÉLECTRIQUE",
+        "imageTitle": "hydroelectrique.png",
+        "correctTitle": "Hydroélectrique",
+        "questions": [
+            {
+                "question": "Quel est le principe de fonctionnement d'une centrale hydroélectrique ?",
+                "definition": "Une centrale hydroélectrique exploite l'énergie cinétique de l'eau en mouvement, généralement à partir de barrages, pour faire tourner une turbine qui active un générateur, produisant ainsi de l'électricité.",
+                "choices": [
+                    {
+                        "name": "Elle capte la chaleur de l'eau souterraine pour produire de la vapeur",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Elle utilise l'énergie des vagues océaniques pour générer de l'électricité",
+                        "value": "wrong2"
+                    },
+                    {
+                        "name": "Elle exploite l'énergie cinétique de l'eau en mouvement pour produire de l'électricité",
+                        "value": "correct"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SMART GRID",
+        "imageTitle": "smart_grid.png",
+        "correctTitle": "Smart Grid",
+        "questions": [
+            {
+                "question": "Qu'est-ce qu'un Smart Grid (réseau électrique intelligent) ?",
+                "definition": "Un Smart Grid est un réseau électrique moderne qui intègre des technologies de communication avancées pour surveiller et gérer efficacement la production, la distribution et la consommation d'énergie, tout en favorisant l'utilisation d'énergies renouvelables.",
+                "choices": [
+                    {
+                        "name": "Un réseau électrique alimenté par des générateurs diesel",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Un réseau électrique sans aucune régulation",
+                        "value": "wrong2"
+                    },
+                    {
+                        "name": "Un réseau électrique intelligent avec des technologies de communication avancées",
+                        "value": "correct"
+                    }
+                ]
+            }
+        ]
+    }
+]

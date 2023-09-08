@@ -1,0 +1,11 @@
+.fontTitle {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+@media (min-width: 768px) {
+    .fontTitle {
+        font-size: 2em;
+        margin: 25px 0;
+    }
+    
+}

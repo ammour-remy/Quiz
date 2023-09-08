@@ -1,0 +1,40 @@
+#locationCounter {
+
+    background: linear-gradient(90deg, #ffcd00 10%, #fffd01 100%);
+    
+    z-index: 5;
+    position: sticky;
+    height: min-content;
+    top: 75px !important;
+}
+
+#cercle {
+    width: 27px;
+}
+
+.counterWidth{
+    width: 120px;
+}
+@media (min-width: 1200px) {
+    .counterWidth{
+        margin: 15px auto;
+    }
+    #locationCounter {
+        position: fixed !important;
+        border-right: 0 !important;
+        height: min-content;
+        top: 100px !important;
+        width: 150px !important;
+        right: 0 !important;
+        display: initial !important;
+        border: 3px solid rgba(196, 194, 194, 0.808) !important;
+        border-top-left-radius: 10px; 
+        border-bottom-left-radius: 10px; 
+        border-right: transparent !important;
+    }
+
+    #moveTop {
+        position: relative;
+
+    }
+}

@@ -1,0 +1,14 @@
+#logoSwitch {
+    width: 100px;
+  }
+  #burgerMenu {
+    font-size: 2.5em !important;
+  }
+  #navBar {
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    z-index: 100 !important;
+    height: 75px !important;
+    position: sticky;
+    top: 0;
+  }

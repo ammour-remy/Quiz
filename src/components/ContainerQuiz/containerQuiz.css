@@ -1,0 +1,166 @@
+
+
+@keyframes rotateIn {
+    0% {
+        transform: perspective(400px) rotateY(1turn);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(0);
+    }
+}
+
+@keyframes rotateOut {
+    0% {
+        transform: perspective(400px) rotateY(0);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(1turn);
+    }
+}
+
+.rotate-in {
+    animation: rotateIn 0.5s forwards;
+}
+
+
+.rotate-out {
+    animation: rotateOut 0.5s forwards;
+}
+
+
+/* Styles pour les radios personnalisées */
+.radioContainer .customRadio {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    /* Espace entre les radios */
+    cursor: pointer;
+}
+
+.scrollMain {
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+.fs-small {
+    font-size: 10px;
+}
+/* Styles pour l'icône de radio */
+.radioContainer .customRadio::before {
+    content: "";
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    /* Couleur de la bordure */
+    border-radius: 50%;
+}
+
+/* Styles pour la sélection de radio */
+.radioContainer .customRadio input:checked+.customRadio::before {
+    background-color: #000 !important;
+    /* Couleur de la sélection */
+}
+
+.cardFormat {
+    height: 500px;
+    width: 310px;
+    min-width: 310px;
+    border-color: rgb(194, 194, 194) !important;
+}
+
+.colorDefault {
+    background: linear-gradient(90deg,#ffcd00  10%,#fffd01 100%);
+}
+
+.colorFalse {
+    background: rgb(134, 0, 0);
+    background: linear-gradient(90deg, rgb(173, 2, 2) 55%, rgb(231, 4, 4) 100%);
+    opacity: 1 !important;
+}
+.falseIcones {
+    color: rgb(231, 4, 4);
+}
+.colorTrue {
+    background: rgb(0, 169, 158);
+    background: linear-gradient(90deg, rgba(0, 169, 158, 1) 55%, rgba(58, 224, 157, 1) 100%);
+    opacity: 1 !important;
+}
+
+.cardFormat div img {
+    height: 200px;
+}
+
+.cardFormat div .correctIcone {
+    height: 150px;
+}
+body::-webkit-scrollbar-track {
+    max-height: 50%;
+     height: 100px;
+}
+button {
+    color: black !important;
+    border-color: black !important;
+    width: 200px !important;
+}
+
+label {
+    flex-grow: 1;
+}
+
+.defCard {
+    flex-grow: 1;
+    
+}
+
+.titleCard {
+    height: min-content;
+}
+.formText{
+    letter-spacing: 4px !important;
+}
+.defText {
+    font-size: 14px;
+    height: min-content;
+}
+
+.formatCard {
+    height: min-content !important;
+    
+}
+.widthContainerCard {
+    max-width: 250px;
+}
+
+
+/* css pour les transition des cards */
+.cardScale {
+    transform: scale(0.8);
+    padding-bottom: 100px;
+    transition: transform 0.5s ease, padding-bottom 0.5s ease;
+   
+}
+.cardScalePrevNext {
+    transform: scale(0.9);
+    padding-bottom: 40px;
+    transition: transform 0.5s ease, padding-bottom 0.5s ease;
+}
+.cardScaleActive{
+    transform: scale(1);
+    padding-bottom: 0 !important;
+    transition: transform 0.5s ease, padding-bottom 0.5s ease;
+}
+
+.componentsSize {
+    height: max-content !important;
+}
+@media (min-width: 576px) {
+    .widthContainerCard {
+        width: 250px !important;
+    }
+    
+}
