@@ -1,20 +1,21 @@
 import React from "react";
-import logoSwitch from "../../assets/images/logoSwitch.png";
+import logoRugby from "../../assets/images/Logo_RWC2023_FR.png";
 import { FaBars } from "react-icons/fa";
 import "./header.css";
 
 function Header() {
   return (
-    <header id="navBar" className="d-flex  justify-content-between">
+    <header id="navBar" className="d-flex  ">
 
       <section className="m-3 ">
         <a href="/" title="lien vers la page d'accueil" alt='Logo chez switch'>
-          <img src={logoSwitch} id="logoSwitch" alt="logo de 'Chez Switch'" />
+          <img src={logoRugby} id="logoRugby" alt="logo de de la world cup  france : 2023 de Rugby" />
         </a>
       </section>
-      <nav className="m-3">
-        <FaBars id="burgerMenu" className="border border-3 rounded-2 p-2"/>
-      </nav>
+      <p className="size fw-semibold">
+        RUGBY <span className="fw-bold">WORLD CUP</span> FRANCE 2023
+      </p>
+     
     </header>
   );
 }

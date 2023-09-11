@@ -242,7 +242,7 @@ function Quiz(props) {
         </div>
         <button
           type="submit"
-          className={`btn py-2 btn-primary my-3 mx-auto ${props.button}`}
+          className={`btn py-2 btn-primary my-3 mx-auto text-light ${props.button}`}
           disabled={!selectedOption ||  props.isFormSubmitted}
         >
           {textCorrect}

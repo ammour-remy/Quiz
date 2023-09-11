@@ -4,8 +4,9 @@ import "./home.css";
 import ContainerCounter from "../../components/Counter/ContainerCounter";
 import QuizTitle from "../../components/QuizTitle/QuizTitle";
 import Carousel from "../../components/carousel/Carousel";
-import CardsListArray from "./../../assets/data/acronyme.json";
+import CardsListArray from "./../../assets/data/rugby.json";
 import Header from "./../Header/Header";
+import Subscribe from "../../components/Subscribe/Subscribe";
 
 function Home() {
   // Constantes
@@ -14,10 +15,13 @@ function Home() {
   const [falseCounter, setFalseCounter] = useState(0);
   const [remains, setRemains] = useState(0);
   const [iconesAnimation, setIconesAnimation] = useState("");
+   if(remains === lengthCards) {
+    console.log(remains)
+   }
 
   // Rendu du composant
   return (
-    <div className="vw-100 vh-100 d-flex flex-column overflow-hidden">
+    <div className={`vw-100 vh-100 d-flex flex-column overflow-hidden ${remains === lengthCards ? "shadow blur" : ""}`}>
       <Header />
       <ContainerCounter
         // permet la modification des compteurs suivant la validation des formulaire
@@ -45,6 +49,7 @@ function Home() {
         iconesAnimation={iconesAnimation}
         setIconesAnimation={setIconesAnimation}
       />
+      <Subscribe/>
     </div>
   );
 }

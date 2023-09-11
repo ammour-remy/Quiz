@@ -1,6 +1,6 @@
 import {React } from 'react';
 import "./card.css";
-import FalseImage from "../../assets/images/PERDU.png";
+import FalseImage from "../../assets/images/cartonRouge.png";
 
 function Card(props) {
     
@@ -15,14 +15,14 @@ function Card(props) {
         >
           {props.showQuestion && (
             <div className="h-100">
-              <div className="colorDefault d-flex p-3 justify-content-center h-75">
+              <div className=" d-flex p-3 justify-content-center h-75">
                 <img
                   src={"/icones/" + props.data.imageTitle}
                   className="py-4"
                   alt={"icones " + props.data.name}
                 />
               </div>
-              <div className="h-25 d-flex justify-content-center align-items-center">
+              <div className="h-25 colorDefault d-flex justify-content-center align-items-center">
                 <h3 className="">{props.data.name}</h3>
               </div>
             </div>
@@ -45,7 +45,6 @@ function Card(props) {
              <div className="h-100">
               <div
                 className={`h-50 d-flex justify-content-center ${props.correctClass}`}
-                onClick={() => props.onClick(props.index)}
               >
                 <img
                   src={"/icones/" + props.data.imageTitle}

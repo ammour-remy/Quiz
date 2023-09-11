@@ -1,5 +1,5 @@
-#logoSwitch {
-    width: 100px;
+#logoRugby {
+    width: 50px;
   }
   #burgerMenu {
     font-size: 2.5em !important;
@@ -11,4 +11,8 @@
     height: 75px !important;
     position: sticky;
     top: 0;
+  }
+  .size {
+    width: 100px;
+    color: #2534DE;
   }

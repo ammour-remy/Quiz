@@ -1,0 +1,379 @@
+[
+    {
+        "name": "Créateur du rugby moderne",
+        "imageTitle": "ballon.png",
+        "correctTitle": "William Webb Ellis",
+        "questions": [
+            {
+                "question": "Qui est considéré comme le créateur du rugby moderne ?",
+                "definition": "Le rugby moderne est considéré comme ayant été créé par William Webb Ellis en 1823 lorsqu'il aurait ramassé le ballon avec ses mains pendant un match de football à l'école de Rugby en Angleterre.",
+                "choices": [
+                    {
+                        "name": "William Webb Ellis",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Jonah Lomu",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Richie McCaw",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jeux Olympique",
+        "imageTitle": "jeuxOlympique.webp",
+        "correctTitle": "1900",
+        "questions": [
+            {
+                "question": "En quelle année le rugby à XV est-il devenu un sport olympique pour la première fois ?",
+                "definition": "Le rugby à XV est devenu un sport olympique pour la première fois en 1900, lors des Jeux Olympiques de Paris.",
+                "choices": [
+                    {
+                        "name": "1900",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "1924",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "1976",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Participants",
+        "imageTitle": "joueur.png",
+        "correctTitle": "15",
+        "questions": [
+            {
+                "question": "Combien de joueurs composent une équipe de rugby à XV sur le terrain en même temps ?",
+                "definition": "Une équipe de rugby à XV compte 15 joueurs sur le terrain en même temps.",
+                "choices": [
+                    {
+                        "name": "11",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "15",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "13",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "All Blacks",
+        "imageTitle": "allblack.png",
+        "correctTitle": "Nouvelle-Zélande",
+        "questions": [
+            {
+                "question": "Quelle équipe nationale est surnommée les 'All Blacks' ?",
+                "definition": "L'équipe nationale de Nouvelle-Zélande est surnommée les 'All Blacks'.",
+                "choices": [
+                    {
+                        "name": "Australie",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Nouvelle-Zélande",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Afrique du Sud",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Durée d'un match",
+        "imageTitle": "chrono.png",
+        "correctTitle": "80 minutes",
+        "questions": [
+            {
+                "question": "Quelle est la durée standard d'un match de rugby à XV (hors prolongations) ?",
+                "definition": "La durée standard d'un match de rugby à XV (hors prolongations) est de 80 minutes.",
+                "choices": [
+                    {
+                        "name": "80 minutes",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "90 minutes",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "100 minutes",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+   
+    {
+        "name": "Rugby et son histoire",
+        "imageTitle": "drapeau.png",
+        "correctTitle": "Afrique du Sud",
+        "questions": [
+            {
+                "question": "Quelle nation a remporté la Coupe du Monde de Rugby en 1995, une victoire qui a été célébrée comme un moment historique pour le pays après son retour à la compétition internationale après des années d'isolement en raison de l'apartheid ?",
+                "definition": "L'Afrique du Sud a remporté la Coupe du Monde de Rugby en 1995.",
+                "choices": [
+                    {
+                        "name": "Nouvelle-Zélande",
+                        "value": "wrong2"                        
+                    },
+                    {
+                        "name": "Angleterre",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Afrique du Sud",
+                        "value": "correct"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Top Score",
+        "imageTitle": "qui.png",
+        "correctTitle": "Rory Underwood",
+        "questions": [
+            {
+                "question": "Qui est le meilleur marqueur de tous les temps en Coupe du Monde de Rugby ?",
+                "definition": "Rory Underwood est le meilleur marqueur de tous les temps en Coupe du Monde de Rugby, avec 15 essais inscrits.",
+                "choices": [
+                    {
+                        "name": "Jonah Lomu",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Bryan Habana",
+                        "value": "wrong2"
+                    },
+                    {
+                        "name": "Rory Underwood",
+                        "value": "correct"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "coupe féminine de rugby",
+        "imageTitle": "Rugbyfeminin.png",
+        "correctTitle": "1991",
+        "questions": [
+            {
+                "question": "En quelle année la première Coupe du Monde de Rugby féminin a-t-elle eu lieu ?",
+                "definition": "La première Coupe du Monde de Rugby féminin a eu lieu en 1991.",
+                "choices": [
+                    {
+                        "name": "1991",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "1987",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "2003",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Trophée",
+        "imageTitle": "trophee.png",
+        "correctTitle": "La Coupe Webb Ellis",
+        "questions": [
+            {
+                "question": "Quel trophée est décerné au vainqueur de la Coupe du Monde de Rugby ?",
+                "definition": "Le trophée décerné au vainqueur de la Coupe du Monde de Rugby est la Coupe Webb Ellis.",
+                "choices": [
+                    {
+                        "name": "La Coupe du Monde de Rugby",
+                        "value": "wrong1"                       
+                    },
+                    {
+                        "name": "La Coupe Webb Ellis",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Le Trophée du Rugby International",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Palmares",
+        "imageTitle": "LOGOWORDCUP.png",
+        "correctTitle": "Nouvelle-Zélande",
+        "questions": [
+            {
+                "question": "Quelle nation a remporté le plus de Coupes du Monde de Rugby ?",
+                "definition": "La Nouvelle-Zélande est la nation qui a remporté le plus de Coupes du Monde de Rugby.",
+                "choices": [
+                    {
+                        "name": "Nouvelle-Zélande",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Australie",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Afrique du Sud",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pénalité",
+        "imageTitle": "longueur.png",
+        "correctTitle": "90 mètres",
+        "questions": [
+            {
+                "question": "En rugby, quelle est la longueur maximale autorisée pour un coup de pied de pénalité dans un match de rugby à XV ?",
+                "definition": "La longueur maximale autorisée pour un coup de pied de pénalité dans un match de rugby à XV est de 90 mètres.",
+                "choices": [
+                    {
+                        "name": "90 mètres",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "100 mètres",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "80 mètres",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Geste Technique",
+        "imageTitle": "gesteTechnique.jpg",
+        "correctTitle": "Drop goal",
+        "questions": [
+            {
+                "question": "En rugby, quel est le nom du geste technique qui consiste à déplacer le ballon en le frappant du pied en plein vol ?",
+                "definition": "Le geste technique qui consiste à déplacer le ballon en le frappant du pied en plein vol est appelé un 'Drop goal'.",
+                "choices": [
+                    {
+                        "name": "Conversion",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Pénalité",
+                        "value": "wrong2"
+                    },
+                    {
+                        "name": "Drop goal",
+                        "value": "correct"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rugby World Cup",
+        "imageTitle": "worldCup2027.png",
+        "correctTitle": "2027",
+        "questions": [
+            {
+                "question": "En quelle année la prochaine Coupe du Monde de Rugby aura-t-elle lieu ?",
+                "definition": "La prochaine Coupe du Monde de Rugby aura lieu en 2027 en Australie.",
+                "choices": [
+                    {
+                        "name": "2028",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "2027",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "2026",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Maillot N°9",
+        "imageTitle": "maillotN9.png",
+        "correctTitle": "Demi de mêlée",
+        "questions": [
+            {
+                "question": "Quelle position porte habituellement le numéro 9 dans une équipe de rugby à XV ?",
+                "definition": "Le numéro 9 dans une équipe de rugby à XV porte habituellement la position de 'Demi de mêlée'.",
+                "choices": [
+                    {
+                        "name": "Demi de mêlée",
+                        "value": "correct"
+                    },
+                    {
+                        "name": "Ouvreuse",
+                        "value": "wrong1"
+                    },
+                    {
+                        "name": "Troisième ligne aile",
+                        "value": "wrong2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "6 Nations",
+        "imageTitle": "nationsLogo.jpg",
+        "correctTitle": "Trophée Garibaldi",
+        "questions": [
+            {
+                "question": "Quel est le nom du trophée décerné au vainqueur du Tournoi des Six Nations de rugby ?",
+                "definition": "Le trophée décerné au vainqueur du Tournoi des Six Nations de rugby est appelé le 'Trophée Garibaldi'.",
+                "choices": [
+                  {
+                    "name": "Trophée des Nations",
+                    "value": "wrong1"
+                  },
+                  {
+                    "name": "Trophée du Tournoi",
+                    "value": "wrong2"
+                  },
+                  {
+                    "name": "Trophée Garibaldi",
+                    "value": "correct"
+                  }
+                ]
+              }
+        ]
+    }
+    
+]

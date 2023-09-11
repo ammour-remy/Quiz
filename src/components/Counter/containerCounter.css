@@ -1,6 +1,7 @@
 #locationCounter {
 
-    background: linear-gradient(90deg, #ffcd00 10%, #fffd01 100%);
+    background: linear-gradient(90deg, rgba(25,25,75,1) 0%, rgba(4,4,185,1) 100%);
+    color: white;
     
     z-index: 5;
     position: sticky;
