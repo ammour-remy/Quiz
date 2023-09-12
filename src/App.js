@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 function App() {
   return (
-    <div className="App" height="300px">
+    <div className="App relative" height="300px">
      <Home/>
     </div>
   );

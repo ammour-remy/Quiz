@@ -27,3 +27,6 @@
     animation: zoomIn 0.5s ease-in-out;
     /* Durée et type d'animation */
 }
+.blur {
+    filter: blur(1rem);
+}

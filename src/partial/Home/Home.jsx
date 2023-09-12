@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./home.css";
 
 import ContainerCounter from "../../components/Counter/ContainerCounter";
@@ -15,13 +15,22 @@ function Home() {
   const [falseCounter, setFalseCounter] = useState(0);
   const [remains, setRemains] = useState(0);
   const [iconesAnimation, setIconesAnimation] = useState("");
-   if(remains === lengthCards) {
-    console.log(remains)
-   }
+  const [closePopUp, setclosePopUp] = useState("flase");
+  const [popUp, setPopUp] = useState("");
+  useEffect(() => {
+    if (remains === lengthCards) {
+      setPopUp("blur");
+    } else if (closePopUp === true) {
+      setPopUp("");
+    }
+  }, [remains, closePopUp]);
+
+
 
   // Rendu du composant
   return (
-    <div className={`vw-100 vh-100 d-flex flex-column overflow-hidden ${remains === lengthCards ? "shadow blur" : ""}`}>
+    <main className="relative d-flex justify-content-center align-items-center vw-100 vh-100 overflow-hidden">
+    <div className={`vw-100 vh-100 d-flex flex-column overflow-hidden ${popUp}`}>
       <Header />
       <ContainerCounter
         // permet la modification des compteurs suivant la validation des formulaire
@@ -48,9 +57,18 @@ function Home() {
         length={lengthCards}
         iconesAnimation={iconesAnimation}
         setIconesAnimation={setIconesAnimation}
-      />
-      <Subscribe/>
+        />
     </div>
+      <Subscribe
+      none={remains === lengthCards ? "none" : ""}
+      close={ closePopUp === true ? "popup" : ""}
+      closePopUp={closePopUp}
+      setclosePopUp={setclosePopUp}
+      popUp={popUp}
+      setPopUp={setPopUp}
+      
+      />
+    </main>
   );
 }
 

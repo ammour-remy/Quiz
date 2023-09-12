@@ -1,0 +1,26 @@
+.posPopUp {
+    background-color: white;
+}
+.posPopUp h4 {
+    color: #0F0F7E;
+}
+#closePopUp {
+    width: 40px !important;
+    height: 40px !important;
+}
+.posPopUp button {
+    color: black;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease !important;
+}
+
+.posPopUp button:hover {
+    color: white !important;
+    background-color: #0F0F7E;
+}
+@media (min-width: 600px) {
+    .posPopUp {
+        width: 50% !important;
+    }
+    
+}
