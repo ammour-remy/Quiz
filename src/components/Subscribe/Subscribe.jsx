@@ -9,6 +9,9 @@ function Subscribe(props) {
     email: "",
     commentaire: "",
   });
+ 
+
+  const [formDataValid, setFormDataValid] = useState(false); // Tableau pour stocker les données soumises
 
   const [formDataArray, setFormDataArray] = useState([]); // Tableau pour stocker les données soumises
 
@@ -20,7 +23,7 @@ function Subscribe(props) {
     });
   };
 
-  const handleValidationAndSubmit = () => {
+  const handleValidationAndSubmit = (setFormDataValid) => {
     // Vérifiez que les champs "nom", "prénom" et "email" sont remplis et que l'email a un format valide
     if (
       formData.nom.trim() === "" ||
@@ -60,9 +63,13 @@ function Subscribe(props) {
 
    
         props.setclosePopUp(true);
+        setFormDataValid(true);
   
   };
-  console.log("Données soumises :", formDataArray);
+  if(formDataValid === true) {
+
+    console.log("Données soumises :", formDataArray);
+  }
   
   const isValidEmail = (email) => {
     // Utilisez une expression régulière pour vérifier le format de l'email
