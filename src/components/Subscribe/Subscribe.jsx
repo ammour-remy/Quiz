@@ -57,19 +57,19 @@ function Subscribe(props) {
       email: "",
       commentaire: "",
     });
-
-    // Sauvegardez le tableau formDataArray dans le stockage local du navigateur
-    localStorage.setItem("Utilisateur", JSON.stringify(formDataArray));
-
-   
-        props.setclosePopUp(true);
-        setFormDataValid(true);
-  
+    
+    
+    props.setclosePopUp(true);
+    setFormDataValid(true);
+    
   };
   if(formDataValid === true) {
-
+    
     console.log("Données soumises :", formDataArray);
   }
+  
+      // Sauvegardez le tableau formDataArray dans le stockage local du navigateur
+      localStorage.setItem("Utilisateur", JSON.stringify(formDataArray));
   
   const isValidEmail = (email) => {
     // Utilisez une expression régulière pour vérifier le format de l'email
