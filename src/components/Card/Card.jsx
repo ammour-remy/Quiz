@@ -17,7 +17,7 @@ function Card(props) {
             <div className="h-100">
               <div className=" d-flex p-3 justify-content-center h-75">
                 <img
-                  src={"/icones/" + props.data.imageTitle}
+                  src={"/Quiz/icones/" + props.data.imageTitle}
                   className="py-4"
                   alt={"icones " + props.data.name}
                 />
@@ -47,7 +47,7 @@ function Card(props) {
                 className={`h-50 d-flex justify-content-center ${props.correctClass}`}
               >
                 <img
-                  src={"/icones/" + props.data.imageTitle}
+                  src={"/Quiz/icones/" + props.data.imageTitle}
                   className="p-4"
                   alt={"icones " + props.data.name}
                 />
