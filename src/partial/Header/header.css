@@ -16,3 +16,17 @@
     width: 100px;
     color: #2534DE;
   }
+  header button {
+    width: 50px !important;
+    height: 50px;
+  }
+  header button {
+    color: #0F0F7E !important;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease !important;
+}
+
+header button:hover {
+    color: white !important;
+    background-color: #0F0F7E;
+}

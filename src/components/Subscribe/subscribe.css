@@ -13,7 +13,6 @@
     background-color: white;
     transition: background-color 0.5s ease, color 0.5s ease !important;
 }
-
 .posPopUp button:hover {
     color: white !important;
     background-color: #0F0F7E;
@@ -22,5 +21,4 @@
     .posPopUp {
         width: 50% !important;
     }
-    
 }
