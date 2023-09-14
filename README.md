@@ -1,9 +1,1 @@
-avant lancement, installer les librairies suivantes :
-
--bootstrap
-
-
--Framer motion
-
-
--Swiper
+https://ammour-remy.github.io/Quiz/)https://ammour-remy.github.io/Quiz/
