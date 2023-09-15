@@ -47,6 +47,7 @@ function Subscribe(props) {
 
     // Ajoutez newData au tableau des données soumises
     setFormDataArray([...formDataArray, newData]);
+    console.log(newData);
 
     // Affichez le tableau dans la console
 
