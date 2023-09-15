@@ -110,6 +110,7 @@ function Subscribe(props) {
             Nom<span className="text-danger"> * </span>
           </label>
           <input
+          id="nom"
             type="text"
             required
             name="nom"
@@ -121,6 +122,7 @@ function Subscribe(props) {
             Prénom<span className="text-danger"> * </span>
           </label>
           <input
+          id="prenom"
             type="text"
             required
             name="prenom"
@@ -132,6 +134,7 @@ function Subscribe(props) {
             E-mail<span className="text-danger"> * </span>
           </label>
           <input
+          id="email"
             type="email"
             required
             name="email"
@@ -141,6 +144,7 @@ function Subscribe(props) {
           />
           <label htmlFor="commentaire">Commentaire</label>
           <textarea
+          id="commentaire"
             type="text"
             className="col-12 col-md-6 my-3 rounded-1"
             name="commentaire"
