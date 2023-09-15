@@ -23,7 +23,7 @@ function Subscribe(props) {
     });
   };
 
-  const handleValidationAndSubmit = (setFormDataValid) => {
+  const handleValidationAndSubmit = () => {
     // Vérifiez que les champs "nom", "prénom" et "email" sont remplis et que l'email a un format valide
     if (
       formData.nom.trim() === "" ||
