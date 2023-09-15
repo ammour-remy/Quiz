@@ -61,10 +61,9 @@ function Subscribe(props) {
     
     
     props.setclosePopUp(true);
-    setFormDataValid(true);
     
   };
-  if(formDataValid === true) {
+  if(props.setclosePopUp === true) {
     
     console.log("Données soumises :", formDataArray);
   }
