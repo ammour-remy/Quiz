@@ -140,7 +140,7 @@ function Subscribe(props) {
             onChange={handleInputChange}
             value={formData.email}
           />
-          <label htmlFor="">Commentaire</label>
+          <label htmlFor="ommentaire">Commentaire</label>
           <textarea
             type="text"
             className="col-12 col-md-6 my-3 rounded-1"
