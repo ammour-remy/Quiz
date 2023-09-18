@@ -18,7 +18,7 @@ function Header(props) {
         RUGBY <span className="fw-bold">WORLD CUP</span> FRANCE 2023
       </p>
 </article>
-      <h2 className="">MYVINGO</h2>
+      <h2 className="blue">MYVINGO</h2>
       <button className={`position-absolute end-0 m-3 rounded-5 ${props.none === "none" ? "" : "d-none"}`} 
       onClick={() =>  props.setclosePopUp(false)}>
         <FaStar />
