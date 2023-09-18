@@ -14,7 +14,7 @@ function Header(props) {
           <img src={logoRugby} id="logoRugby" alt="logo de de la world cup  france : 2023 de Rugby" />
         </a>
       </section>
-      <p className="size fw-semibold m-0">
+      <p className="size fw-semibold m-0 d-none d-md-block">
         RUGBY <span className="fw-bold">WORLD CUP</span> FRANCE 2023
       </p>
 </article>
