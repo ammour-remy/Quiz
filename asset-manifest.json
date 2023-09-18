@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Quiz/static/css/main.acbd606b.css",
-    "main.js": "/Quiz/static/js/main.406207db.js",
+    "main.js": "/Quiz/static/js/main.d9ae5894.js",
     "static/js/787.271608b6.chunk.js": "/Quiz/static/js/787.271608b6.chunk.js",
     "static/media/Logo_RWC2023_FR.png": "/Quiz/static/media/Logo_RWC2023_FR.c92ef66b8cb607259d3f.png",
     "static/media/cartonRouge.png": "/Quiz/static/media/cartonRouge.4abf7a013a5575909995.png",
     "index.html": "/Quiz/index.html",
     "main.acbd606b.css.map": "/Quiz/static/css/main.acbd606b.css.map",
-    "main.406207db.js.map": "/Quiz/static/js/main.406207db.js.map",
+    "main.d9ae5894.js.map": "/Quiz/static/js/main.d9ae5894.js.map",
     "787.271608b6.chunk.js.map": "/Quiz/static/js/787.271608b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acbd606b.css",
-    "static/js/main.406207db.js"
+    "static/js/main.d9ae5894.js"
   ]
 }
