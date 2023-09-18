@@ -7,7 +7,7 @@ function Header(props) {
   
   return (
     <header id="navBar" className="d-flex  align-items-center justify-content-center">
-<article className="position-absolute start-0 ms-3">
+<article className="position-absolute start-0 ms-3 d-flex align-items-center">
 
       <section className="mx-3 d-flex align-items-center">
         <a href="/Quiz/" title="lien vers la page d'accueil" alt='Logo chez switch'>
